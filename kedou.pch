@@ -1,0 +1,59 @@
+//
+//  PrefixHeader.pch
+//  kedou
+//
+//  Created by Circle on 16/2/18.
+//  Copyright © 2016年 Hoolang. All rights reserved.
+//
+
+#ifndef kedou_pch
+#define kedou_pch
+
+typedef void (^VoidBlock)(void);
+typedef void (^IDBlock)(id);
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+typedef void (^stringBlock)(NSString *);
+typedef void (^BoolBlock)(BOOL);
+
+#import <CommonCrypto/CommonDigest.h>
+#import "YYKit.h"
+#import "UIImageView+WebCache.h"
+#import "Constants.h"
+#import "NotificationList.h" //存放通知名称
+
+#import "BaseViewController.h"
+#import "BaseView.h"
+
+//utils
+#import "StringUtil.h"
+#import "TimeUtil.h"
+#import "LogUtil.h"
+#import "NibUtil.h"
+#import "NotificationUtil.h"
+#import "LangUtil.h"
+#import "View+Utils.h"
+#import "NSString+Utils.h"
+#import "UIImage+Utils.h"
+#import "iToast.h"
+#import "ssMacros.h"
+#import "NSDate+Utils.h"
+#import "ConstantUtil.h"
+#import "UserUtil.h"
+#import "NSObject+JOSN.h"
+#import "NSObject+ModelUtils.h"
+#import "TipsUtil.h"
+#import "ImageUtil.h"
+#import "LocalMgr.h"
+
+//config
+#import "EnumDefine.h"
+
+// view
+//#import "UIView+SDAutoLayout.h"
+
+// mgr
+#import "LoginMgr.h"
+
+#endif /* PrefixHeader_pch */
